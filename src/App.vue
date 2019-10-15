@@ -30,6 +30,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'PFDinTextCondPro' !important;
 }
 .d-flex {
   display: flex;
@@ -39,7 +40,7 @@ export default {
 body {
   font-size: 16px;
   line-height: 1.2;
-  font-family: 'PFDinTextCondPro';
+
   .container{
     padding: 0 46px;
   }

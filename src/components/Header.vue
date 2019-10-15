@@ -3,12 +3,14 @@
     <div class="container">
       <div class="row d-flex">
         <div class="col">
-          <div class="d-flex">
+          <div class="d-flex row-1">
             <div class="col">
               <img src="../assets/images/logo-desktop.png" alt="">
             </div>
             <div class="col">
-              <Button text="карта" />
+              <a target="_blank" href="https://www.google.com.ua/maps/">
+                <Button :active="true" data-text="карта" text="карта" />
+              </a>
             </div>
           </div>
         </div>
@@ -35,8 +37,9 @@ export default {
     padding-top: 18px;
     .row {
       justify-content: space-between;
-      .btn {
-
+      .row-1 {
+        justify-content: space-between;
+        width: 340px;
       }
     }
   }
